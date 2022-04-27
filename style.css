@@ -1,0 +1,604 @@
+body {
+  margin: 0;
+  background-color: green;
+}
+
+.rectangle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 130vh;
+  height: 95vh;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-image: url(img/foot.jpg);
+  border: 0.3em solid white;
+}
+
+.ligne {
+  left: 50%;
+  height: 95.3vh;
+  position: absolute;
+  border-left: 0.3em solid white;
+}
+
+.centercircle {
+  position: absolute;
+  top: 33%;
+  left: 38.3%;
+  width: 30vh;
+  height: 30vh;
+  border-radius: 50%;
+  border: 0.3em solid white;
+}
+
+.butD {
+  top: 25%;
+  left: -0.3%;
+  width: 27vh;
+  height: 45vh;
+  position: absolute;
+  border: 0.3em solid white;
+}
+
+.butG {
+  top: 25%;
+  right: -0.3%;
+  width: 27vh;
+  height: 45vh;
+  position: absolute;
+  border: 0.3em solid white;
+}
+
+.goald {
+  top: 24%;
+  left: -1.7%;
+  width: 12vh;
+  height: 24vh;
+  position: absolute;
+  border: 0.3em solid white;
+}
+
+.goalg {
+  top: 24%;
+  right: -1.7%;
+  width: 12vh;
+  height: 24vh;
+  position: absolute;
+  border: 0.3em solid white;
+}
+
+.demid {
+  top: 33%;
+  right: -29%;
+  width: 6.7vh;
+  height: 15vh;
+  position: absolute;
+  border: 0.3em solid white;
+  border-bottom-right-radius: 100% 50%;
+  border-top-right-radius: 100% 50%;
+}
+
+.demig {
+  top: 33%;
+  left: -29%;
+  width: 6.6vh;
+  height: 15vh;
+  position: absolute;
+  border: 0.3em solid white;
+  border-bottom-left-radius: 100% 50%;
+  border-top-left-radius: 100% 50%;
+}
+
+.quarthg {
+  position: absolute;
+  border: 0.3em solid white;
+  top: -0.45%;
+  left: -0.37%;
+  height: 1.5vh;
+  width: 1.5vh;
+  border-radius: 1.5vh 0 0 0;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.quartbg {
+  position: absolute;
+  border: 0.3em solid white;
+  bottom: -0.45%;
+  left: -0.37%;
+  height: 1.5vh;
+  width: 1.5vh;
+  border-radius: 1.5vh 0 0 0;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.quarthd {
+  position: absolute;
+  border: 0.3em solid white;
+  top: -0.45%;
+  right: -0.37%;
+  height: 1.5vh;
+  width: 1.5vh;
+  border-radius: 1.5vh 0 0 0;
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.quartbd {
+  position: absolute;
+  border: 0.3em solid white;
+  bottom: -0.45%;
+  right: -0.37%;
+  height: 1.5vh;
+  width: 1.5vh;
+  border-radius: 1.5vh 0 0 0;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.GK img {
+  position: absolute;
+  height: 6vh;
+  width: 6vh;
+  top: 48%;
+  left: 0%;
+  z-index: 2;
+}
+
+.GK2 img {
+  position: absolute;
+  height: 6vh;
+  width: 6vh;
+  top: 48%;
+  right: 0%;
+  z-index: 2;
+}
+
+.DG img {
+  position: absolute;
+  height: 6vh;
+  width: 6vh;
+  left: 15%;
+  top: 15%;
+  z-index: 2;
+}
+
+.DC1 img {
+  position: absolute;
+  height: 6vh;
+  width: 6vh;
+  left: 15%;
+  top: 55%;
+  z-index: 2;
+}
+
+.DC2 img {
+  position: absolute;
+  height: 6vh;
+  width: 6vh;
+  left: 15%;
+  top: 35%;
+  z-index: 2;
+}
+
+.DD img {
+  position: absolute;
+  height: 6vh;
+  width: 6vh;
+  left: 15%;
+  bottom: 15%;
+  z-index: 2;
+}
+
+.DGd img {
+  position: absolute;
+  height: 6vh;
+  width: 6vh;
+  right: 15%;
+  top: 15%;
+  z-index: 2;
+}
+
+.DC1d img {
+  position: absolute;
+  height: 6vh;
+  width: 6vh;
+  right: 15%;
+  top: 55%;
+  z-index: 2;
+}
+
+.DC2d img {
+  position: absolute;
+  height: 6vh;
+  width: 6vh;
+  right: 15%;
+  top: 35%;
+  z-index: 2;
+}
+
+.DDd img {
+  position: absolute;
+  height: 6vh;
+  width: 6vh;
+  right: 15%;
+  bottom: 15%;
+  z-index: 2;
+}
+
+.MC img {
+  position: absolute;
+  height: 6vh;
+  width: 6vh;
+  left: 30%;
+  bottom: 40%;
+  z-index: 2;
+}
+
+.MC2 img {
+  position: absolute;
+  height: 6vh;
+  width: 6vh;
+  left: 30%;
+  bottom: 60%;
+  z-index: 2;
+}
+
+.MG img {
+  position: absolute;
+  height: 6vh;
+  width: 6vh;
+  left: 30%;
+  bottom: 90%;
+  z-index: 2;
+}
+
+.MD img {
+  position: absolute;
+  height: 6vh;
+  width: 6vh;
+  left: 30%;
+  bottom: 5%;
+  z-index: 2;
+}
+
+.MCd img {
+  position: absolute;
+  height: 6vh;
+  width: 6vh;
+  right: 30%;
+  bottom: 40%;
+  z-index: 2;
+}
+
+.MC2d img {
+  position: absolute;
+  height: 6vh;
+  width: 6vh;
+  right: 30%;
+  bottom: 60%;
+  z-index: 2;
+}
+
+.MGd img {
+  position: absolute;
+  height: 6vh;
+  width: 6vh;
+  right: 30%;
+  bottom: 90%;
+  z-index: 2;
+}
+
+.MDd img {
+  position: absolute;
+  height: 6vh;
+  width: 6vh;
+  right: 30%;
+  bottom: 5%;
+  z-index: 2;
+}
+
+.BU img {
+  position: absolute;
+  height: 6vh;
+  width: 6vh;
+  left: 45%;
+  bottom: 40%;
+  z-index: 2;
+}
+
+.BU2 img {
+  position: absolute;
+  height: 6vh;
+  width: 6vh;
+  left: 45%;
+  bottom: 60%;
+  z-index: 2;
+}
+
+.BUd img {
+  position: absolute;
+  height: 6vh;
+  width: 6vh;
+  right: 45%;
+  bottom: 40%;
+  z-index: 2;
+}
+
+.BU2d img {
+  position: absolute;
+  height: 6vh;
+  width: 6vh;
+  right: 45%;
+  bottom: 60%;
+  z-index: 2;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0;
+    background-color: green;
+  }
+  .rectangle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 99%;
+    width: 97%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    background-image: url(img/foot.jpg);
+    border: 0.3em solid white;
+  }
+  .ligne {
+    left: 50%;
+    height: 95.3vh;
+    position: absolute;
+    border-left: 0.3em solid white;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .centercircle {
+    position: absolute;
+    top: 40%;
+    left: 34%;
+    width: 15vh;
+    height: 15vh;
+    border-radius: 50%;
+    border: 0.3em solid white;
+  }
+  .butD {
+    top: 89%;
+    left: 30%;
+    width: 20vh;
+    height: 10vh;
+    position: absolute;
+    border: 0.3em solid white;
+  }
+  .butG {
+    top: -0.3%;
+    left: 30%;
+    width: 20vh;
+    height: 10vh;
+    position: absolute;
+    border: 0.3em solid white;
+  }
+  .goald {
+    top: 55%;
+    left: 25%;
+    width: 8vh;
+    height: 4vh;
+    position: absolute;
+    border: 0.3em solid white;
+  }
+  .goalg {
+    top: -5%;
+    right: 28%;
+    width: 8vh;
+    height: 4vh;
+    position: absolute;
+    border: 0.3em solid white;
+  }
+  .demid {
+    top: -56%;
+    right: 40%;
+    width: 3vh;
+    height: 6vh;
+    position: absolute;
+    border: 0.3em solid white;
+    border-bottom-right-radius: 100% 50%;
+    border-top-right-radius: 100% 50%;
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  .demig {
+    top: 85%;
+    left: 37%;
+    width: 3vh;
+    height: 6vh;
+    position: absolute;
+    border: 0.3em solid white;
+    border-bottom-left-radius: 100% 50%;
+    border-top-left-radius: 100% 50%;
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  .GK img {
+    position: absolute;
+    height: 6vh;
+    width: 6vh;
+    top: 0%;
+    left: 45%;
+    z-index: 2;
+  }
+  .GK2 img {
+    position: absolute;
+    height: 6vh;
+    width: 6vh;
+    top: 93%;
+    right: 40%;
+    z-index: 2;
+  }
+  .DG img {
+    position: absolute;
+    height: 6vh;
+    width: 6vh;
+    left: 0%;
+    top: 8%;
+    z-index: 2;
+  }
+  .DC1 img {
+    position: absolute;
+    height: 6vh;
+    width: 6vh;
+    left: 30%;
+    top: 8%;
+    z-index: 2;
+  }
+  .DC2 img {
+    position: absolute;
+    height: 6vh;
+    width: 6vh;
+    left: 59%;
+    top: 8%;
+    z-index: 2;
+  }
+  .DD img {
+    position: absolute;
+    height: 6vh;
+    width: 6vh;
+    left: 87%;
+    top: 8%;
+    z-index: 2;
+  }
+  .DGd img {
+    position: absolute;
+    height: 6vh;
+    width: 6vh;
+    right: 1%;
+    top: 86%;
+    z-index: 2;
+  }
+  .DC1d img {
+    position: absolute;
+    height: 6vh;
+    width: 6vh;
+    right: 23%;
+    top: 86%;
+    z-index: 2;
+  }
+  .DC2d img {
+    position: absolute;
+    height: 6vh;
+    width: 6vh;
+    right: 58%;
+    top: 86%;
+    z-index: 2;
+  }
+  .DDd img {
+    position: absolute;
+    height: 6vh;
+    width: 6vh;
+    right: 87%;
+    bottom: 8%;
+    z-index: 2;
+  }
+  .MC img {
+    position: absolute;
+    height: 6vh;
+    width: 6vh;
+    left: 30%;
+    top: 20%;
+    z-index: 2;
+  }
+  .MC2 img {
+    position: absolute;
+    height: 6vh;
+    width: 6vh;
+    left: 60%;
+    top: 20%;
+    z-index: 2;
+  }
+  .MG img {
+    position: absolute;
+    height: 6vh;
+    width: 6vh;
+    left: 90%;
+    top: 20%;
+    z-index: 2;
+  }
+  .MD img {
+    position: absolute;
+    height: 6vh;
+    width: 6vh;
+    left: -3%;
+    top: 20%;
+    z-index: 2;
+  }
+  .MCd img {
+    position: absolute;
+    height: 6vh;
+    width: 6vh;
+    right: 55%;
+    bottom: 23%;
+    z-index: 2;
+  }
+  .MC2d img {
+    position: absolute;
+    height: 6vh;
+    width: 6vh;
+    right: 30%;
+    bottom: 23%;
+    z-index: 2;
+  }
+  .MGd img {
+    position: absolute;
+    height: 6vh;
+    width: 6vh;
+    right: 0%;
+    bottom: 23%;
+    z-index: 2;
+  }
+  .MDd img {
+    position: absolute;
+    height: 6vh;
+    width: 6vh;
+    right: 85%;
+    bottom: 23%;
+    z-index: 2;
+  }
+  .BU img {
+    position: absolute;
+    height: 6vh;
+    width: 6vh;
+    left: 55%;
+    bottom: 55%;
+    z-index: 2;
+  }
+  .BU2 img {
+    position: absolute;
+    height: 6vh;
+    width: 6vh;
+    left: 35%;
+    bottom: 55%;
+    z-index: 2;
+  }
+  .BUd img {
+    position: absolute;
+    height: 6vh;
+    width: 6vh;
+    right: 32%;
+    bottom: 40%;
+    z-index: 2;
+  }
+  .BU2d img {
+    position: absolute;
+    height: 6vh;
+    width: 6vh;
+    right: 55%;
+    bottom: 40%;
+    z-index: 2;
+  }
+}
